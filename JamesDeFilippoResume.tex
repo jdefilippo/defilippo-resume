@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{James}{DeFilippo}{ 
+\href{mailto:jms.defilippo@gmail.com}{jms.defilippo@gmail.com} | 978.227.8300 | \href{https://jdefilippo.github.io/}{jdefilippo.github.io} \\
+18 Cuba Street, Watertown, MA 02472 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{UMass Lowell}
+\descript{B.S. in Mathematics}
+\location{Magna Cum Laude}
+\location{2011 - 2015 | GPA: 3.73}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Languages}
+\textbullet{} Python 
+\textbullet{} C
+\textbullet{} C++ \\
+\textbullet{} MatLab 
+\textbullet{} Simulink \\
+\textbullet{} BASH  
+\textbullet{} Assembly 
+\sectionsep
+
+\subsection{Technologies}
+\textbullet{} Linux 
+\textbullet{} MySQL \\
+\textbullet{} MagicDraw  
+\textbullet{} UML \\ 
+\textbullet{} Git 
+\textbullet{} SVN \\
+\textbullet{} Simics 
+\textbullet{} VxWorks \\ 
+\textbullet{} HTML
+\textbullet{} CSS
+\sectionsep
+
+\subsection{Domain Knowledge}
+\textbullet{} Software Architecture \\ 
+\textbullet{} Spiral Development \\  
+\textbullet{} Space Systems \\ 
+\textbullet{} Embedded Systems \\ 
+\textbullet{} Fault Tolerance \\ 
+\textbullet{} Kalman Filtering \\ 
+\textbullet{} Applied Probability 
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\textbullet{} Mathematical Modeling \\
+\textbullet{} Measure and Probability Theory \\
+\textbullet{} Stochastic Processes \\ 
+\textbullet{} Partial Differential Equations \\
+\textbullet{} Abstract Algebra \\ 
+\textbullet{} Introduction to Algorithms \\
+\textbullet{} Foundations of Computer Science \\
+\textbullet{} Computer Organization and Assembly Language Programming \\
+\textbullet{} Computing I-III \\
+\textbullet{} Probability and Statistics \\
+\textbullet{} Introduction to Topology \\ 
+\textbullet{} Number Theory \\
+\textbullet{} Real Analysis
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DISTINCTIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Distinctions}
+\textbullet{} Commonwealth Scholarship \\ 
+\textbullet{} Zamankos Endowed Scholarship  \\
+\textbullet{} Pi Mu Epsilon \\ 
+\textbullet{} Dean's List \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Draper}
+\descript{| Software Engineer }
+\location{May 2015 - Present | Cambridge, MA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Designed, developed, and tested key components of fault-tolerant flight software in embedded C for NASA-funded reusable spacecraft.  
+\item Generated simulation and modeling software in MATLAB and Simulink to analyze flight trajectories using Kalman filtering algorithms. 
+\item Wrote object-oriented modernization design proposal for a major department’s analysis tools to generalize and expand the functionality of existing software.  
+\item Received Outstanding Contribution Award and subsequent promotion based on performance reviews.
+\item Designed Python framework for auto-testing legacy software. 
+\end{tightemize}
+\sectionsep
+
+\vspace{\topsep} 
+\vspace{\topsep} 
+
+\runsubsection{IBM}
+\descript{| Software Co-op }
+\location{June 2014 - August 2014 | Littleton, MA}
+\begin{tightemize}
+\item Designed C++ test cases to ensure full code coverage. 
+\item Learned company’s software lifecycle for Lotus Notes, working to resolve outstanding PRs and implemented test cases using Visual Studio IDE and within a Windows environment.
+\end{tightemize}
+\sectionsep
+
+\vspace{\topsep} 
+\vspace{\topsep} 
+
+\runsubsection{Putnam Investments}
+\descript{| Software Co-op }
+\location{ January 2014 - May 2014 | Andover, MA}
+\begin{tightemize}
+\item Designed and implemented Python software to automatically update SQL tables with daily changes to employee information. 
+\item Led efforts to create a department-wide version control using GIT. 
+\end{tightemize}
+\sectionsep
+
+\vspace{\topsep} 
+\vspace{\topsep} 
+
+\runsubsection{Engaging Computing Group}
+\descript{| Undergrad Researcher }
+\location{ May 2012 - December 2013 | Lowell, MA}
+\begin{tightemize} 
+\item Developed prototype evaluation system in Python to automatically grade submissions in a freshman-level CS course.
+\item Designed grading rubrics and teaching materials for an introductory Mobile Computing class.
+\item Contributed to the App Inventor Gallery, a code-sharing platform for community created Android apps, using JavaScript and Qooxdoo, an Ajax web-application framework. 
+\end{tightemize}
+\sectionsep
+
+\vspace{\topsep} 
+\vspace{\topsep} 
+
+\runsubsection{Mathematics Department}
+\descript{| Undergrad Researcher }
+\location{ September 2012 - December 2013 | Lowell, MA}
+\begin{tightemize}
+\item Worked with a team of undergraduate and graduate students under Professor James Propp on problems involving de-randomized rotor-router models of stochastic processes.
+\item Communicated ﬁndings through technical writing and computer simulations.
+\item Presented results at the 2013 Mid-Hudson Mathematics Conference.
+\end{tightemize}
+\sectionsep
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
