@@ -1,0 +1,63 @@
+Draper 
+Software Engineer
+May 2015 - Present 
+Cambridge, MA
+
+ Designed, developed, and tested key components of fault-tolerant flight software in embedded C for NASA-funded reusable spacecraft.  
+ Generated simulation and modeling software in MATLAB and Simulink to analyze flight trajectories using Kalman filtering algorithms. 
+ Wrote object-oriented modernization design proposal for a major department’s analysis tools to generalize and expand the functionality of existing software.  
+ Received Outstanding Contribution Award and subsequent promotion based on performance reviews.
+ Designed Python framework for auto-testing legacy software. 
+
+IBM 
+Software Co-op
+June 2014 - August 2014 
+Littleton, MA
+ Designed C++ test cases to ensure full code coverage. 
+ Learned company’s software lifecycle for Lotus Notes, working to resolve outstanding PRs and implemented test cases using Visual Studio IDE and within a Windows environment.
+
+Putnam Investments 
+Software Co-op
+January 2014 - May 2014 
+Andover, MA
+ Designed and implemented Python software to automatically update SQL tables with daily changes to employee information. 
+ Led efforts to create a department-wide version control using GIT. 
+
+Engaging Computing Group 
+Undergrad Researcher
+May 2012 - December 2013 
+Lowell, MA
+ Developed prototype evaluation system in Python to automatically grade submissions in a freshman-level CS course.
+ Designed grading rubrics and teaching materials for an introductory Mobile Computing class.
+ Contributed to the App Inventor Gallery, a code-sharing platform for community created Android apps, using JavaScript and Qooxdoo, an Ajax web-application framework. 
+
+
+Mathematics Department
+Undergrad Researcher 
+September 2012 - December 2013 
+Lowell, MA
+ Worked with a team of undergraduate and graduate students under Professor James Propp on problems involving de-randomized rotor-router models of stochastic processes.
+ Communicated ﬁndings through technical writing and computer simulations.
+ Presented results at the 2013 Mid-Hudson Mathematics Conference.
+
+-------------------------------------
+
+SKILLS 
+
+Python 
+C
+C++ 
+MatLab 
+Simulink 
+Linux 
+MySQL 
+MagicDraw  
+UML 
+Git 
+SVN 
+Simics 
+VxWorks 
+HTML
+CSS
+Software Architecture  
+Embedded Systems 
